@@ -1,12 +1,19 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom'
 
-ReactDOM.render(<div>
-    <ul>
-        <li>test1</li>
-        <li>test2</li><
-        li>test3</li>
-    </ul></div>,
-    document.getElementById('root'))
+function MyApp() {
+    return (
+        <div>
+            <h1>Dimitry</h1>
+            <p>i am dimitry im trying react</p>
+            <ol>
+                <li>greece</li>
+                <li>spain</li>
+                <li>italy</li>
+            </ol>
+        </div>
+    )
 
 
+}
+ReactDOM.render(<MyApp/>, document.getElementById('root'))
