@@ -6,18 +6,23 @@ function Footer() {
     const date = new Date()
     const hours = date.getHours()
     let timeOfDate
+    const styles = {fontSize: 50}
 
-    if(hours < 12) {
+
+    if (hours < 12) {
         timeOfDate = 'morning'
-    }else if (hours >= 12 && hours < 17) {
+        styles.color = 'red'
+    } else if (hours >= 12 && hours < 17) {
         timeOfDate = 'afternoon'
-    }else{
+        styles.color = 'yellow'
+    } else {
         timeOfDate = 'night'
-    }
+        styles.color = 'green'
 
+    }
     return (
         <div>
-            <h1>Good : {timeOfDate}</h1>
+            <h1 style={styles}>Good {timeOfDate} : {firstName} {lastName}</h1>
         </div>
     )
 }
