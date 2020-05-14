@@ -1,9 +1,14 @@
 import React from "react";
-function Header() {
-return (
-    <header>this is where the header will come</header>
-)
-}
 
+function Header() {
+    return (
+        <div>
+            <header className='header'>
+                <p>to do list 2</p>
+            </header>
+        </div>
+    )
+
+}
 
 export default Header

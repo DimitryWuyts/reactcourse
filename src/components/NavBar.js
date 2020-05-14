@@ -1,11 +1,14 @@
 import React from "react";
+
 function NavBar() {
     return (
-        <nav>
-            This is where my navbar will come
-        </nav>
+        <div>
+            <nav>
+                <p>to do list 1</p>
+            </nav>
+        </div>
     )
-
 }
+
 
 export default NavBar
