@@ -18,6 +18,7 @@ function Footer() {
     } else {
         timeOfDate = 'night'
         styles.color = 'green'
+        
 
     }
     return (
@@ -28,3 +29,4 @@ function Footer() {
 }
 
 export default Footer
+
