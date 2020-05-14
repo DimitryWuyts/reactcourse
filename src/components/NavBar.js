@@ -1,11 +1,11 @@
 import React from "react";
-
 function NavBar() {
-    return(
+    return (
         <nav>
-            <h5>here my navbar comes</h5>
+            This is where my navbar will come
         </nav>
     )
 
 }
+
 export default NavBar

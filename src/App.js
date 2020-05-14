@@ -1,17 +1,15 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import MainContent from "./MainContent";
-import NavBar from "./NavBar";
+import Footer from "./components/Footer"
+import Header from './components/Header'
+import NavBar from './components/NavBar'
 
-function App() {
-    return (<div>
+function App (){
+    return(     <div>
+        <Footer/>
         <Header/>
         <NavBar/>
-        <MainContent/>
-        <Footer/>
-            </div>
+           </div>
     )
-
 }
-export default App
+           export default App
+
