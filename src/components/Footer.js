@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     const firstName = 'dimi'
     const lastName = 'wuyts'
-    const date = new Date()
+    const date = new Date(2018, 5,7,23)
     const hours = date.getHours()
     let timeOfDate
     const styles = {fontSize: 50}
@@ -18,7 +18,6 @@ function Footer() {
     } else {
         timeOfDate = 'night'
         styles.color = 'green'
-        
 
     }
     return (

@@ -1,14 +1,13 @@
 import React from "react";
-
-function NavBar() {
-    return (
+function NavBar (){
+    return(
         <div>
             <nav>
-                <p>to do list 1</p>
+                <p>here comes the navbar</p>
             </nav>
         </div>
     )
-}
 
+}
 
 export default NavBar

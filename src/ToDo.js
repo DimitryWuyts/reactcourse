@@ -1,17 +1,8 @@
 import React from "react";
+import './style.css'
 function ToDo () {
-    const style = {fontSize: 20}
-    style.color ='red'
     return(
-        <div style={style}>
-                <input type="checkbox"/>
-                <p>placeholder text here</p>
-                <input type="checkbox"/>
-                <p>placeholder text here</p>
-                <input type="checkbox"/>
-                <p>placeholder text here</p>
-                <input type="checkbox"/>
-                <p>placeholder text here</p>
+        <div className='todo'>
                 <input type="checkbox"/>
                 <p>placeholder text here</p>
             </div>
