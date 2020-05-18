@@ -10,29 +10,33 @@ function App() {
             {/*<Header/>*/}
             {/*<Footer/>*/}
             <ContactCard
-                name = "MR.jos"
-                imgUrl = "https://image.shutterstock.com/image-photo/kiev-ukraine-april-20-2015-260nw-273231134.jpg"
-                phone = "0498.58.69.35"
-                email = "dimijos14@hotmail.com"
-            />
+                contact={{
+                    name: "Mr.jos",
+                    imgURl: "https://i.pinimg.com/originals/92/18/85/921885925bf07d85d723ee267b2b2498.jpg",
+                    phone: "0498.69.14.67",
+                    email: "dimi65468@tetmail.be"
+                }}/>
             <ContactCard
-                name = "MR.Dimi"
-                imgUrl = "https://image.shutterstock.com/image-photo/kiev-ukraine-april-20-2015-260nw-273231134.jpg"
-                phone = "0498.58.69.35"
-                email = "dimidre14@hotmail.com"
-            />
+                contact={{
+                    name: "Mr.jef",
+                    imgURl: "https://i.pinimg.com/originals/92/18/85/921885925bf07d85d723ee267b2b2498.jpg",
+                    phone: "0498.69.14.67",
+                    email: "dimi65468@tetmail.be"
+                }}/>
             <ContactCard
-                name = "MR.Dimfssrgsg"
-                imgUrl = "https://image.shutterstock.com/image-photo/kiev-ukraine-april-20-2015-260nw-273231134.jpg"
-                phone = "0498.58.69.35"
-                email = "dimidefwe14@hotmail.com"
-            />
-            <ContactCard
-                name = "MR.Disrfsf"
-                imgUrl = "https://image.shutterstock.com/image-photo/kiev-ukraine-april-20-2015-260nw-273231134.jpg"
-                phone = "0498.58.69.35"
-                email = "dimisgsrgs14@hotmail.com"
-            />
+                contact={{
+                    name: "Mr.jack",
+                    imgURl: "https://i.pinimg.com/originals/92/18/85/921885925bf07d85d723ee267b2b2498.jpg",
+                    phone: "0498.69.14.67",
+                    email: "dimi65468@tetmail.be"
+                }}/>  <ContactCard
+                contact={{
+                    name: "Mr.jawel",
+                    imgURl: "https://i.pinimg.com/originals/92/18/85/921885925bf07d85d723ee267b2b2498.jpg",
+                    phone: "0498.69.14.67",
+                    email: "dimi65468@tetmail.be"
+                }}/>
+
         </div>
     )
 }
